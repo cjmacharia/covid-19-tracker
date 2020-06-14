@@ -12,6 +12,6 @@ app.get('/*', function(req,res) {
   res.sendFile(path.join(publicPath, 'index.html'));
 });
 // Start the app by listening on the default Heroku port
-app.listen(() => {
+app.listen(port, () => {
   console.log('serving on ' + port)
 });
