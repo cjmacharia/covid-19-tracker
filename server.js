@@ -4,7 +4,7 @@ const path = require('path');
 const port  = process.env.PORT || 8050
 
 const app = express();
-const publicPath = (path.join(__dirname, 'public'));
+const publicPath = (path.join(__dirname, 'build'));
 // Serve only the static files form the dist directory
 app.use(express.static(publicPath));
 
