@@ -2,15 +2,13 @@ body {
   background-color: rgb(250, 250, 250)
 }
 
-.contianer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column
-}
-
 @media(max-width: 770px) {
   .contianer {
     margin: 0, 10%
   }
+}
+
+.image {
+  width: 370px;
+
 }
