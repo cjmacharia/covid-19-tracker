@@ -22,7 +22,7 @@ const lineChart = (
     labels: dailyData.map(({ date }) => date),
     datasets: [{
       data: dailyData.map(({ confirmed }) => confirmed),
-      label: 'Infected',
+      label: 'INFECTED',
       borderColor: 'rgba(58, 15, 216, 0.5)',
       fill: true,
     }, {
@@ -42,7 +42,7 @@ const barChart = (
   (
     <Bar 
     data={{
-      labels: ["INFECTED", "RECORVED", "DEATHS"],
+      labels: ["INFECTED", "RECOVERED", "DEATHS"],
       datasets: [{
         label: 'people',
         backgroundColor: [
