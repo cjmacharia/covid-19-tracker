@@ -1,7 +1,7 @@
 A covid-19 tracker 
 API consumed : `https://covid19.mathdro.id/api`
 
-hosted final product: `https://covid-001.herokuapp.com/`
+hosted final product: https://covid-001.herokuapp.com/`
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
